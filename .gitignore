@@ -1,0 +1,16 @@
+#SSL cert and key
+demo.devhub.club.key
+demo.devhub.club.crt
+
+#SSH host RSA cert and key
+host_key
+host_key.pub
+
+#Build executables and IDE settings
+Main
+ssh-webauth
+ssh-webauth.iml
+.idea
+
+#Used to set linux capability to bind privileged ports <1024 without root
+setcap.sh
