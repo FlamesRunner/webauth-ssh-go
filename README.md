@@ -3,6 +3,10 @@ An implementation of asymmetric, fully distributed secure side-channel authentic
 
 Live demo [here](https://demo.devhub.club/).
 
+Privacy note: This demo server only keeps a normal request log containing your IP address and the executed action (HTTP Header 
+contents). Your public key is only logged in case of an error (in order to make an effort to improve usability) and otherwise 
+kept in memory for a maximum of 10 minutes. 
+
 ## Notes
 
 This demo takes the same public key format as your OpenSSH authorized_keys file
@@ -25,3 +29,4 @@ If you try to use a wrong token or an unregistered public key you will receive "
 ## Extension
 - Support Ed25519 (not supported in golang.org/x/crypto/ssh at the moment)
 - Special browser plugins supporting authentication (true random numbers are currently only possible in chrome context)
+
