@@ -41,7 +41,10 @@ It supports SSH-RSA, SSH-DSA, ECDSA-SHA2-NISTP{256,384,521}.<br>
 The server itself currently offers a RSA key, length 4096 bit and fingerprint<br>
 SHA256:IW0JCfRu0QMiR5ffaQQmnEGzXMe3lgtq524wahMFXo8.<br><br>
 Inspired by GitHub @altitude <a href="http://demo-ssh.32b6.com/">Demo</a>, <a href="https://github.com/altitude/login-with-ssh">Source</a>.<br>
-This implementation is completely written in <a href="http://golang.org">Go</a>, and also actively checks your public key.<br>
+<br><b>Privacy note</b> This demo server only keeps a normal request log containing<br>
+your IP address and the executed action (HTTP Header contents). Your public key is only<br>
+logged in case of an error (in order to make an effort to improve usability) and otherwise<br> 
+kept in memory for a maximum of 10 minutes.<br>
 <br>
 A normal application would store the public key chosen along with the normal user credentials.<br>
 Paste the public key you want to use here:<br>
