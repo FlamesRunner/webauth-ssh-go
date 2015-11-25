@@ -3,6 +3,9 @@ An implementation of asymmetric, fully distributed secure side-channel authentic
 
 Live demo [here](https://demo.devhub.club/).
 
+(Note that I have no affiliation with devhub.club, this is a domain 
+kindly provided by afraid.org)
+
 Privacy note: This demo server only keeps a normal request log containing your IP address and the executed action (HTTP Header 
 contents). Your public key is only logged in case of an error (in order to make an effort to improve usability) and otherwise 
 kept in memory for a maximum of 10 minutes. 
