@@ -1,10 +1,10 @@
 package main
 
 import (
-	"github.com/fabian-z/webauth-ssh-go/logger"
 	"crypto/rand"
 	"encoding/base64"
 	"fmt"
+	"github.com/fabian-z/webauth-ssh-go/logger"
 	"github.com/gorilla/context"
 	"github.com/gorilla/securecookie"
 	"github.com/justinas/nosurf"
