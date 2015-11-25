@@ -6,9 +6,10 @@ demo.devhub.club.crt
 host_key
 host_key.pub
 
-#Build executables and IDE settings
+#Built executables and IDE settings
 Main
 ssh-webauth
+webauth-ssh-go
 ssh-webauth.iml
 .idea
 
