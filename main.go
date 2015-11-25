@@ -1,7 +1,7 @@
 package main
 
 import (
-	"./logger"
+	"github.com/fabian-z/webauth-ssh-go/logger"
 	"crypto/rand"
 	"encoding/base64"
 	"fmt"
