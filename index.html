@@ -15,6 +15,30 @@
 	font-size: 15px;
 	}
 
+	 #imprint a {
+         bottom: 20px;
+         font-size: 13px;
+         font-weight: normal;
+         position: fixed;
+         right: 20px;
+         color: #a0a0a0;
+         font-size:10px;
+         text-decoration:none;
+        }
+
+	textarea {
+        width:700px;
+        }
+
+        #gopher {
+         height: 130px;
+         left: 800px;
+         position: absolute;
+         top: 421px;
+         width: auto;
+        }
+
+
 	.button {
 	background: #3498db;
 	background-image: linear-gradient(to bottom, #3498db, #2980b9);
@@ -58,5 +82,10 @@ Paste the public key you want to use here:<br>
     <input name="csrf_token" type="hidden" value="{{ $.Token }}">
 </form>
 <a href="https://github.com/fabian-z/webauth-ssh-go"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"></a>
+<img id="gopher" src="//cdn.rawgit.com/golang-samples/gopher-vector/master/gopher.svg">
+<div id="imprint">
+<a href="https://github.com/golang-samples/gopher-vector">Gopher by Renee French & Takuya Ueda, CC-BY</a>
+</div>
+
 </body>
 </html>
